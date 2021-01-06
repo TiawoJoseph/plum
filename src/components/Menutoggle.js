@@ -42,7 +42,7 @@ const Wrapper = styled.div`
     right:80px;
     top:60px;
     opacity:${props => (props.isOpen ? 1 : 0)};
-    z-index:1;
+    z-index:2;
     transition:0.3s ease-in-out;
     visibility:${ props => (props.isOpen ? "visible" : "hidden")};
 `
