@@ -66,6 +66,13 @@ button{
         margin-right:20px;
 
     }
+    .nav-resp{
+        width: 100%;
+        height:2px;
+        background-color: #06C7F2;
+        border-radius: 50px;
+       
+    }
     .list-items{
         display: flex;
         flex-direction: column;
