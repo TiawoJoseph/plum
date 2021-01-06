@@ -59,7 +59,7 @@ export class home extends Component {
                              <hr />      
                              <br />                
                                   <p>John Doe</p>
-                                  <p className="pv">Valid Till 05/22</p>
+                                  <p className="pv">Valid Till 00/00</p>
                            
                        </div>
                       </div>
