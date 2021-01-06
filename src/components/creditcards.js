@@ -29,13 +29,13 @@ function creditcards() {
                        <hr />
                        <br />
                             <p>John Doe</p>
-                            <p>Valid Till 05/22</p>
+                            <p>Valid Till 00/00</p>
                    
                  </div>
                 </div>
                 
                 <div className="p-ce-text">
-                <h1>Plum Choice Excel</h1>
+                <h1>Genjo Excel</h1>
                 <Lorem />
                 <br />
                 <Btnm title="Apply now"> Apply</Btnm>
@@ -57,12 +57,12 @@ function creditcards() {
                        <br />
                        <div className="cardN-date">
                             <p>John Doe</p>
-                            <p>Valid Till 05/22</p>
+                            <p>Valid Till 00/00</p>
                        </div>
                 </div>
                 </div>
                 <div className="pbi-text">
-                <h1>Plum Beyond I</h1>
+                <h1>Genjo Beyond I</h1>
                 <Lorem />
                 <br />
                 <Btnm title="Apply now"> Apply</Btnm>
@@ -85,12 +85,12 @@ function creditcards() {
                        <br />
                        <div className="cardN-date">
                             <p>John Doe</p>
-                            <p>Valid Till 05/22</p>
+                            <p>Valid Till 00/00</p>
                        </div>
                 </div>
                 </div>
                 <div className="prc-text">
-                <h1>Plum Rewards Card</h1>
+                <h1>Genjo Rewards Card</h1>
                 <Lorem />
                 <br />
                 <Btnm title="Apply now"> Apply</Btnm>
@@ -114,12 +114,12 @@ function creditcards() {
                        <br />
                        <div className="cardN-date">
                             <p>John Doe</p>
-                            <p>Valid Till 05/22</p>
+                            <p>Valid Till 00/00</p>
                        </div>
                 </div>
                 </div>
                 <div className="prc-text">
-                <h1>Plum Revo Card</h1>
+                <h1>Genjo Card</h1>
                 <Lorem />
                 <br />
                 <Btnm title="Apply now"> Apply</Btnm>

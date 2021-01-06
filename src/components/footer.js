@@ -24,12 +24,12 @@ function footer() {
                 <div className="footer-nav2">
                 <p><span> Contact Us</span></p>
                 <p> (647) 888-8888 </p>
-                <p> info@plumbank.io </p>
+                <p> info@genjo.com </p>
                 </div>
                 <br />
                 <div className="nav3-wrapper">
                 <div className="footer-nav3">
-                    <p> Find us here!</p>
+                    <p> Find us here! [test project not real]</p>
                     </div>
                     <div className="footer-nav4">
                     <img src={fb} alt="" className="fb" />

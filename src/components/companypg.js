@@ -33,7 +33,7 @@ function companypg() {
             <div className="c-container">
                 
             <div className="company-text">
-            <h1 className="company-text-h1"> Plum </h1>
+            <h1 className="company-text-h1"> Genjo </h1>
             <h1 className="welcome-h1">welcomes you! </h1>
             </div>
             
