@@ -1,0 +1,26 @@
+.preLoader {
+    text-align: center;
+    margin-top:40%;
+  }
+   
+  *{
+    background-color: black;
+  }
+  .nav-logo{
+    animation: preloader;
+    animation-duration: 12s;
+  
+    position: relative;
+  }
+  @keyframes preloader {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    50%  {top: 50px}
+    75%   {top: 70px}
+    85% {top: 50px}
+    95% {top: 90px}
+    96% {top: 70px;}
+    97% {top: 50px;}
+    98% {top: 30px;}
+    100% {top: 0px;}
+  }

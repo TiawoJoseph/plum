@@ -1,0 +1,334 @@
+.cc-global{
+    background-color: black;
+    height:250vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.container-cc{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+    float: right;
+    padding-top: 10%;
+  }
+  
+  .container-cc .card-cc {
+    position: relative;
+    width:400px;
+    height:280px;
+    margin: 30px;
+    margin-top: -150px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius:15px;
+    background:rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    border-right: 1px solid rgba(138, 72, 212, 0.5);
+    border-bottom: 1px solid rgba(31, 14, 177, 0.5);
+    backdrop-filter: blur(5px);
+  z-index: 1;
+  }
+  
+  .container-cc .card-cc .content-cc{
+    width: 90%;
+  }
+.cc-content{
+    height: 100%;
+}
+
+.container-cc :hover{
+    transform:rotateX(-10deg) rotateY(-20deg);
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+.p-ce-text{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: flex-start;
+    align-items: flex-start;      
+    padding-bottom:15% ;
+}
+.Plum-Choice-Excel{
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    align-items: flex-start;
+      
+    justify-content: center;
+
+
+}
+
+.pbi-text{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: flex-start;
+    align-items: flex-start;      
+    padding-bottom:15% ;
+}
+.Plum-Beyond-I{
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    align-items: flex-start;    
+    justify-content: center;
+}
+
+
+
+.prc-text{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: flex-start;
+    align-items: flex-start;      
+    padding-bottom:15% ;
+
+}
+.Plum-Rewards-Card{
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    align-items: flex-start;    
+    justify-content: center;
+
+}
+.prc-text{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: flex-start;
+    align-items: flex-start;      
+    padding-bottom:15% ;
+
+}
+.Plum-Revo-Card{
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    align-items: flex-start;    
+    justify-content: center;
+    
+ }
+
+ .plum-card-innerC{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+
+ }
+
+ .cc-h1-text{
+     width: 35%;
+     display: flex;
+     flex-direction: column;
+    line-height: 130%;
+ }
+ .cc-h1T-container{
+    display: flex;
+    width: 100%; 
+    padding-left: 10%;
+
+
+}
+
+.line{
+    width: 50%;    
+    color: lightgray;
+    height: 1px;
+}
+
+@media only screen and (max-width:949px){
+
+    .line{
+        width: 50%;    
+        color: lightgray;
+        height: 1px;
+        visibility: hidden;
+    }
+.p-ce-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: flex-start;      
+    padding-bottom:15% ;
+}
+.pbi-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: flex-start;      
+    padding-bottom:15% ;
+}
+
+.prc-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: flex-start;      
+    padding-bottom:15% ;
+
+}
+
+.cc-global{
+    background-color: black;
+    height:350vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.plum-card-innerC{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    padding-bottom: 10%;
+    padding-top: 15%;
+ }
+
+}
+
+@media only screen and (max-width:715px){
+
+    .cc-h1-text{
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        line-height: 130%;
+        padding-top: 15%;
+    }
+    
+    .plum-card-innerC{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        
+        padding-bottom: 10%;
+        padding-top: 25%;
+     }
+
+     .p-ce-text{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        justify-content: flex-start;
+        align-items: flex-start;      
+        padding-bottom:15% ;
+    }
+    .pbi-text{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        justify-content: flex-start;
+        align-items: flex-start;      
+        padding-bottom:15% ;
+    }
+    
+    .prc-text{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        justify-content: flex-start;
+        align-items: flex-start;      
+        padding-bottom:15% ;
+    
+    }
+    .container-cc .card-cc {
+        position: relative;
+        width:300px;
+        height:180px;
+        margin: 30px;
+        margin-top: -150px;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius:15px;
+        background:rgba(255, 255, 255, 0.1);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top:1px solid rgba(255,255,255,0.5);
+        border-left: 1px solid rgba(255,255,255,0.5);
+        border-right: 1px solid rgba(138, 72, 212, 0.5);
+        border-bottom: 1px solid rgba(31, 14, 177, 0.5);
+        backdrop-filter: blur(5px);
+      z-index: 1;
+      }
+      .container-cc .card-cc .content-cc{
+        width: 90%;
+      }
+    .cc-content{
+        height: 100%;
+    }
+    .chip{
+        height:40px;
+        width:50px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .cc-h1-text{
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        line-height: 130%;
+        padding-top: 15%;
+    }
+
+    .p-ce-text{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        justify-content: flex-start;
+        align-items: flex-start;      
+        padding-bottom:25% ;
+    }
+    .pbi-text{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        justify-content: flex-start;
+        align-items: flex-start;      
+        padding-bottom:25% ;
+    }
+    
+    .prc-text{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        justify-content: flex-start;
+        align-items: flex-start;      
+        padding-bottom:25% ;
+    
+    }
+    .plum-card-innerC{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+      
+        padding-bottom: 10%;
+        padding-top: 55%;
+     }
+}

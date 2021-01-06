@@ -1,0 +1,88 @@
+.nav{
+    display: flex;
+   
+    width: 100%;
+}
+
+.nav-logoC{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 0.5%;
+}
+.list-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left:3%;
+    padding-top: 1%;
+    width: 100%;
+    text-decoration: none;
+}
+
+Link p:hover{
+    color:#06C7F2 ;
+    transform: translateY(10px);
+}
+
+.container-nav{
+    max-width: 100%;
+}
+.container-nav2{
+    display: flex;
+
+}
+button{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+.nav-resp{
+    width: 100%;
+    height:2px;
+    background-color: #06C7F2;
+    border-radius: 50px;
+   
+}
+
+
+@media only screen and (max-width:928px){
+    button{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: black;
+        border: none;
+        cursor: pointer;
+        margin-right:20px;
+
+    }
+    .list-items{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left:3%;
+        padding-top: 10%;
+        width: 100%;
+        text-decoration: none;
+        display:none ;
+    }
+
+    .list-items :hover{
+        background-color: #06C7F2;
+        padding: 2%;
+    }
+   
+    
+ 
+}
+

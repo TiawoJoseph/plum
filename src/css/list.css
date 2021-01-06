@@ -1,0 +1,76 @@
+.list-global{
+    height: 20%;
+    
+}
+
+.product-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.product-list p:hover{
+transform: translateX(-10px);
+}
+.gradient-last{
+    background-image:linear-gradient(to left, #6a0dad,#06C7F2);
+    padding: 1%;
+    border-radius: 15px;
+    
+}
+
+.gradient-first{
+    background-image:linear-gradient(to left, #6a0dad,#0500ff);
+
+    padding: 1%;
+    border-radius: 15px;
+}
+
+.gradient-rand{
+    background-image:linear-gradient(to left, #0500ff,#06c7f2);
+    
+    padding: 1%;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width:712px){
+    .product-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    
+  
+    }
+    .gradient-last{
+        background-image:linear-gradient(to left, #6a0dad,#06C7F2);
+        width: 90%;
+        padding: 1%;
+        border-radius: 1%;
+        text-align: center;
+    }
+    
+    .gradient-first{
+        background-image:linear-gradient(to left, #6a0dad,#0500ff);
+        width: 90%;
+        padding: 1%;
+        border-radius: 0%;
+        text-align: center;
+    }
+    
+    .gradient-rand{
+        background-image:linear-gradient(to left, #0500ff,#06c7f2);
+        width: 90%;
+        padding: 1%;
+        border-radius: 0%;
+        text-align: center;
+    }
+    .product-list p{
+        margin-bottom: 1%;
+        transform: translateX(0px);
+    }
+}

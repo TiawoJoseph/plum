@@ -1,0 +1,248 @@
+.lending-global{
+    height: 75vh;
+    background-color: black;
+    width: 100%;
+}
+.lending-content{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.container-lending{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+    float: right;
+}
+
+.card-lending{
+    position: relative;
+    width:400px;
+    height:380px;
+    margin: 30px;
+    margin-top: -150px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius:15px;
+    background:rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    border-right: 1px solid rgba(138, 72, 212, 0.5);
+    border-bottom: 1px solid rgba(31, 14, 177, 0.5);
+    backdrop-filter: blur(5px);
+  z-index: 1;
+
+}
+
+.content-lending{
+    width: 90%;
+}
+
+.lending-h1-textC{
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+   
+   
+}
+.lending-h1-text{
+    display: flex;
+   
+    width: 100%;
+   padding-left: 7%;
+}
+
+.lending-cardC{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: -800%;
+  
+}
+.rectangle3-lending{
+    width: 204px;
+    height:204px;
+    background-image: radial-gradient(#06c7f2,#0018f9);
+    border: none;
+   border-radius: 50%;
+   animation:circle1 5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+  @keyframes circle1{
+    0%{
+        width: 64px;
+        height:64px;
+    }      
+    12.5%{
+        width: 74px;
+        height:74px;
+    }
+    25%{
+        width: 84px;
+        height:84px;
+    }   
+    50%{
+        width: 104px;
+        height:104px;
+    }
+    75%{
+        width: 154px;
+        height:154px;
+    }    
+    100%{
+        width: 204px;
+        height:204px;
+    }    
+
+
+}
+  .rectangle4-lending{
+    width: 204px;
+    height:204px;
+    background-image: radial-gradient(#6a0dad,#06c7f2);
+    border: none;
+   border-radius: 50%;
+    float:left;
+    animation:circle1 5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  .circle1-lending{
+      display: flex;
+      flex-direction: column;
+      padding-left: 70%;
+  }
+  .find{
+      padding-left: 7%;
+  }
+
+  @media only screen and (max-width:1134px){
+
+    .lending-cardC{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: -800%;
+        align-items: center;
+     
+    }
+    
+.card-lending{
+    position: relative;
+    width:400px;
+    height:380px;
+    margin: 30px;
+    margin-top: -150px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius:15px;
+    background:rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    border-right: 1px solid rgba(138, 72, 212, 0.5);
+    border-bottom: 1px solid rgba(31, 14, 177, 0.5);
+    backdrop-filter: blur(5px);
+     z-index: 1;
+     margin: 12px -7px;
+}
+    .lending-global{
+        height: 205vh;
+        background-color: black;
+        width: 100%;
+    }
+
+  }
+
+  @media only screen and (max-width:712px){
+        
+    .lending-h1-textC{
+        display: flex;
+        flex-direction: column;
+        width: 43%;
+        padding-top: 15%;
+
+    }
+   
+    .rectangle3-lending{
+        width: 104px;
+        height:104px;
+        background-image: radial-gradient(#06c7f2,#0018f9);
+        border: none;
+       border-radius: 50%;
+       
+      }
+      .rectangle4-lending{
+        width: 74px;
+        height:74px;
+        background-image: radial-gradient(#6a0dad,#06c7f2);
+        border: none;
+       border-radius: 50%;
+        float:left;
+    
+      }
+
+  }
+
+  @media only screen and (max-width:512px){
+   
+        
+.card-lending{
+    position: relative;
+    width:300px;
+    height:480px;
+    margin: 30px;
+    margin-top: -150px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius:15px;
+    background:rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    border-right: 1px solid rgba(138, 72, 212, 0.5);
+    border-bottom: 1px solid rgba(31, 14, 177, 0.5);
+    backdrop-filter: blur(5px);
+     z-index: 1;
+     margin: 12px -7px;
+}
+    .rectangle4-lending{
+        width: 74px;
+        height:74px;
+        background-image: radial-gradient(#6a0dad,#06c7f2);
+        border: none;
+        border-radius: 50%;
+        float:left;
+        visibility: hidden;
+    }
+
+    .lending-h1-textC{
+        display: flex;
+        flex-direction: column;
+        width: 73%;
+        padding-top: 15%;
+
+    }
+    .lending-cardC{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: -800%;
+        align-items: center;
+       
+        padding-right: 20%;
+    }
+    
+    
+    
+  }

@@ -1,0 +1,295 @@
+span {
+    color:#06C7F2;
+}
+.mtg-global{
+    height: 238vh;
+    width: 100%;
+    background-color: black;
+}
+.mtg-h1-text{
+    height: 100%;
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    line-height: 155%;
+ 
+}
+.mtg-h1T-C{
+    display: flex;
+    padding-left: 10%;
+
+}
+.container-coloured-mtg{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+    float: right;
+    padding-bottom: 10%;
+}
+
+.card-couloured-mtg{
+    position: relative;
+    width:350px;
+    height:330px;
+    margin: 30px;
+    margin-top: -150px;
+    border-radius:15px;
+    background-image: linear-gradient(to left, #06c7f2,#6a0dad);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(100px);
+    z-index: 1;
+
+}
+
+.content-coulored-mtg{
+    width: 80%;
+}
+
+.colored-innerC{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    padding-top: 20%;
+    padding-bottom: 5%;
+ 
+}
+
+
+.container-mtg{
+   
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+    float: right;
+}
+
+.card-mtg{
+    position: relative;
+    width:400px;
+    height:540px;
+    margin: 30px;
+    margin-top: -150px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius:15px;
+    background:rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    border-right: 1px solid rgba(138, 72, 212, 0.5);
+    border-bottom: 1px solid rgba(31, 14, 177, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 1;
+
+}
+
+.content-mtg{
+
+    width: 90%;
+}
+
+.mtg-rates{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10%;
+    padding-top: 3%;
+   
+}
+.term{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+    height: 33.33%;
+    width: 33.33%;
+}
+
+.special-rate{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+    height: 33.33%;
+    width: 33.33%;
+
+}
+.high-ratio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+    height: 33.33%;
+    width: 33.33%;
+
+
+
+}
+
+.container-clear{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    padding-bottom: 10%;
+    flex-direction: row;    
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.mtg-line{
+    width: 80%;
+}
+
+.seperationC{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-bottom: 20%;
+    
+}
+#line{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+
+@media only screen and (max-width:1220px){
+
+    .card-couloured-mtg{
+        position: relative;
+        width:350px;
+        height:330px;
+        margin: 30px;
+        margin-top: -150px;
+        border-radius:15px;
+        background-image: linear-gradient(to left, #06c7f2,#6a0dad);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(100px);
+        z-index: 1;
+        margin: 12px -7px;
+    }
+
+    .content-coulored-mtg{
+        width: 80%;
+    }
+    .colored-innerC{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 50%;
+        width: 100%;
+        padding-top: 20%;
+        padding-bottom: 5%;
+     
+    }
+    
+    .mtg-global{
+        height: 438vh;
+        width: 100%;
+        background-color: black;
+    }
+    .container-clear{
+        display: flex;
+        width: 100%;
+        height: 50%;
+        padding-bottom: 10%;
+        flex-direction: column;    
+        justify-content: center;
+        align-items: center;
+   
+    }
+    .card-mtg{
+        position: relative;
+        width:400px;
+        height:540px;
+        margin: 30px;
+        margin-top: -150px;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius:15px;
+        background:rgba(255, 255, 255, 0.1);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top:1px solid rgba(255,255,255,0.5);
+        border-left: 1px solid rgba(255,255,255,0.5);
+        border-right: 1px solid rgba(138, 72, 212, 0.5);
+        border-bottom: 1px solid rgba(31, 14, 177, 0.5);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        margin: 12px -7px;
+    }
+    
+
+}
+
+
+@media only screen and (max-width:712px){
+
+    .mtg-h1-text{
+        height: 100%;
+        display: flex;
+        width: 60%;
+        flex-direction: column;
+        line-height: 155%;
+        padding-top: 15%;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width:440px){
+
+    .mtg-h1-text{
+        height: 100%;
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+        line-height: 155%;
+        padding-top: 15%;
+    }
+
+    .card-mtg{
+        position: relative;
+        width:260px;
+        height:740px;
+        margin: 30px;
+        margin-top: -150px;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius:15px;
+        background:rgba(255, 255, 255, 0.1);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top:1px solid rgba(255,255,255,0.5);
+        border-left: 1px solid rgba(255,255,255,0.5);
+        border-right: 1px solid rgba(138, 72, 212, 0.5);
+        border-bottom: 1px solid rgba(31, 14, 177, 0.5);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        margin: 12px -7px;
+    }
+}

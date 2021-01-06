@@ -1,0 +1,172 @@
+.accounts-global{
+    background-color:#000;
+    height:75vh;
+
+}
+
+
+.accounts-content{
+    height: 100%;    
+    display: flex;
+    flex-direction: column;
+}
+.container-acc{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+    float: right;
+  
+  }
+  
+  .container-acc .card-acc{
+    position: relative;
+    width:400px;
+    height:400px;
+    margin: 30px;
+    margin-top: -150px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius:15px;
+    background:rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    border-right: 1px solid rgba(138, 72, 212, 0.5);
+    border-bottom: 1px solid rgba(31, 14, 177, 0.5);
+    backdrop-filter: blur(5px);
+  
+  }
+  .container-acc :hover{
+    transform:translateY(-10px);
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  .container-acc .card .content-acc :hover{
+    transform:translateY(0px);
+  }
+  
+  .container-acc .card-acc .content-acc{
+    width: 90%;
+  }
+
+  .accounts-h1-textC{
+      display: flex;
+      flex-direction: column;
+      max-width: 45%;
+      justify-content: center;
+     
+  }
+  .accounts-h1-text{
+    
+    display: flex;
+    padding-left: 7%;
+  
+  }
+  
+.card-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10%;
+    background-color: none;
+}
+
+@media only screen and (max-width:1318px){
+     
+.card-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 15%;
+  background-color: none;
+}
+
+}
+
+
+@media only screen and (max-width:1065px){
+  .card-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5%;
+   
+    padding-bottom: 20%;
+  }
+
+  .accounts-global{
+    background-color:#000;
+    height:175vh;
+
+}
+.container-acc .card-acc{
+  position: relative;
+  width:400px;
+  height:340px;
+  margin: 30px;
+  margin-top: -150px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius:15px;
+  background:rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top:1px solid rgba(255,255,255,0.5);
+  border-left: 1px solid rgba(255,255,255,0.5);
+  border-right: 1px solid rgba(138, 72, 212, 0.5);
+  border-bottom: 1px solid rgba(31, 14, 177, 0.5);
+  backdrop-filter: blur(5px);
+ 
+  margin: 12px -7px;
+}
+
+.accounts-h1-textC h1{
+  padding-top: 25%;
+}
+
+  
+.accounts-h1-textC{
+  display: flex;
+  flex-direction: column;
+  max-width: 75%;
+  justify-content: center;
+ 
+}
+}
+
+@media only screen and (max-width:464px){
+
+  .container-acc .card-acc{
+    position: relative;
+    width:300px;
+    height:375px;
+    margin: 30px;
+    margin-top: -150px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius:15px;
+    background:rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    border-right: 1px solid rgba(138, 72, 212, 0.5);
+    border-bottom: 1px solid rgba(31, 14, 177, 0.5);
+    backdrop-filter: blur(5px);
+   
+    margin: 12px -7px;
+  }
+  .container-acc .card-acc .content-acc{
+    width: 80%;
+    font-size: 0.85em;
+  }
+
+}
