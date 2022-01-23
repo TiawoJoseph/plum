@@ -14,7 +14,7 @@ function mtg() {
                 <h1>Mortgages</h1>
                 <Lorem />
                 <br/>
-                <Btnm title="Apply for a Mortgage" />
+                <Btnm title="Apply for a Mortgage" href="https://admiring-cray-f5c15f.netlify.app/"/>
             </div>
             </div>
         <div className="colored-outterC">
